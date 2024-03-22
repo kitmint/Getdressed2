@@ -1,0 +1,130 @@
+body {
+    font-family: Times New Roman, sans-serif;
+    margin: 0;
+    padding: 0;  
+    display: block; 
+}
+.image {
+    width: 150px;
+    height: 150px;
+    border-radius: 10px;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 5px;
+    max-width: 600px;
+    height: 150px;
+    background-color: rgba(255, 255, 255, 0.4);
+}
+
+.container1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 5px;
+    max-width: 600px;
+    height: 150px;
+    background-color: rgba(255, 255, 255, 0.4);
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 15px;
+    margin-top: 15px;
+}
+
+.input-size {
+    margin-bottom: 10px;
+    justify-content: center;
+    align-items: center;
+}
+.bodyim {
+    width: 250px;
+    height: 250px;
+    border-radius: 10px;
+    margin-bottom: 15px;
+    align-items: center;
+}
+label {
+    display: inline-block;
+    width: 60px;
+    text-align: right;
+    margin-bottom: 15px;
+}
+.h {
+    display: inline-block;
+    width: 100px;
+    text-align: right;
+    margin-bottom: 15px;
+}
+.input-size{
+    align-items: center;
+    justify-content: left;
+    flex-direction: row;
+}
+
+input[type="number"] {
+    width: 150px;
+    padding: 5px;
+    font-size: 16px;
+    justify-content: center;
+    align-items: center;
+}
+
+button {
+    padding: 8px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+    margin-top: 5px;
+    align-items: center;
+    justify-content: center;
+}
+
+button#calculate {
+    background-color: #4CAF50;
+    color: #fff;
+    margin-right: 20px;
+    border-radius: 30px;
+}
+
+button#calculate:hover {
+    background-color: #45a049;
+    border-radius: 30px;
+}
+
+button#clear {
+    background-color: #aeacac;
+    color: #2b2b2b;
+    border-radius: 30px;
+}
+
+button#clear:hover {
+    background-color: #8b8a8a;
+    border-radius: 30px;
+}
+ad {
+    display:inline-flex;
+    width: 250px;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    margin-top: 10px;
+}
+.btn {
+    padding-top: 10px;
+    text-align: center;
+    white-space: nowrap;
+}
+
+.btn a {
+    color: #2b2b2b;
+    text-decoration: underline;
+}
